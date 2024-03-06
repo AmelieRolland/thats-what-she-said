@@ -1,0 +1,117 @@
+.rose-fonce{
+    background-color: #b2565a ;
+    color: #ffffff;
+}
+.rose-dark{
+    background-color: #662429;
+    color: #FED3D3;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+}
+h2{
+    font-size: 2.2em;
+    color: #662429;
+}
+a{
+    text-decoration: none;
+}
+
+.bandeau{
+    font-size: 40px;
+    font-weight: normal;
+}
+
+strong {
+    position: relative;
+}
+strong::before {
+    background-color: #EEDAC1;
+    content: "";
+    position: absolute;
+    width: calc(100% + 4px);
+    height: 60%;
+    left: -2px;
+    bottom: 0;
+    z-index: -1;
+    transform: rotate(-2deg);
+  }
+
+.banderole{
+    background-image: url(../img/tapisserie.jpg);
+    background-size: cover;
+    height: 200px;
+}
+
+.citation{
+    margin-top: 300px;
+    padding-bottom: 50px;
+}
+.m-neg{
+    margin-top: -150px;
+    margin-bottom: 100px;
+}
+.img-autrice{
+    background-color: #FED3D3;
+}
+
+.generate{
+    background-color: #EEDAC1;
+    color: black;
+    border-radius: 30px;
+    padding: 15px 40px 15px 40px;
+    margin-top: 40px;
+    border: none;
+}
+
+.bio{
+    border-left: #FED3D3 solid 5px;
+}
+.bio p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+  @media screen and (max-width: 700px) {
+
+    .banderole{
+        height: 100px;
+    }
+
+    .bandeau{
+        font-size: 30px;
+    }
+    .citation{
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+    }
+  
+
+    .m-neg{
+        margin-top: -100px;
+        margin-bottom: 50px;
+    }
+    .bio{
+        padding-left: 10px;
+    }
+
+  }
+  @media screen and (max-width: 1000px) {
+    .bio{
+        padding-left: 10px;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+
+    .banderole{
+        height: 100px;
+    }
+
+    .bandeau{
+        font-size: 20px;
+    }
+}
