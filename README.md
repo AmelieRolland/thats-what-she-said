@@ -8,4 +8,3 @@ The idea of this project was to practice html/css, bootstrap, SQL and above all 
 
 It was really funny to make ! I hope you'll enjoy it !
 
-T
